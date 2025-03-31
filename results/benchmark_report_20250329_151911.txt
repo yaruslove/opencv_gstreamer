@@ -1,0 +1,33 @@
+ОТЧЕТ О ТЕСТИРОВАНИИ ПРОИЗВОДИТЕЛЬНОСТИ ОБРАБОТКИ ВИДЕО
+Дата и время: 2025-03-29 15:22:48.800877
+Входное видео: /fanxiangssd/yaroslav/projects/001_inference_system/003_data/in_mock/moscow_video.mp4
+Кадров обработано: CPU=4112, GPU=4103
+
+CPU обработка:
+  Время: 150.80с
+  FPS: 27.27
+  Статистика загрузки CPU:
+   Средняя загрузка CPU: 214.57%
+   Максимальная загрузка CPU: 249.60%
+   Минимальная загрузка CPU: 0.00%
+   Среднее использование RAM: 778.06 МБ
+   Максимальное использование RAM: 781.78 МБ
+
+GPU обработка:
+  Время: 59.24с
+  FPS: 69.26
+  Статистика загрузки CPU:
+   Средняя загрузка CPU: 346.73%
+   Максимальная загрузка CPU: 411.40%
+   Минимальная загрузка CPU: 0.00%
+   Среднее использование RAM: 730.69 МБ
+   Максимальное использование RAM: 784.82 МБ
+
+Сравнение производительности:
+  Ускорение GPU vs CPU: 2.54x
+  Снижение нагрузки на CPU: -61.59%
+
+Созданные отчеты и графики:
+  График сравнения FPS: /fanxiangssd/yaroslav/projects/001_inference_system/004_gstreamer_opencv_docker/python_scripts/output/fps_comparison_20250329_151911.png
+  Графики использования ресурсов: /fanxiangssd/yaroslav/projects/001_inference_system/004_gstreamer_opencv_docker/python_scripts/output/cpu_usage_20250329_151911.png, /fanxiangssd/yaroslav/projects/001_inference_system/004_gstreamer_opencv_docker/python_scripts/output/ram_usage_20250329_151911.png
+  Сводная таблица: /fanxiangssd/yaroslav/projects/001_inference_system/004_gstreamer_opencv_docker/python_scripts/output/comparison_table_20250329_151911.html
